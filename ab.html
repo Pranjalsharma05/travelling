@@ -181,6 +181,52 @@
   .vehicle-card:hover {
       transform: translateY(-5px);
   }
+
+  .newsletter-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.newsletter-section h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter-section .form-group input[type="email"] {
+    border-radius: 0;
+    border-color: #007BFF;
+}
+
+.newsletter-section .btn {
+    border-radius: 0;
+}
+
+  .footer-section {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-section .quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section .quick-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section .quick-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section .contact-info img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
     </style>
 </head>
 <body>
@@ -354,7 +400,47 @@
     </div>
 </div>
 </div>
-
+<!-- Newsletter Section -->
+<div class="newsletter-section">
+    <h2>Subscribe to Our Newsletter</h2>
+    <div class="container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe Now</button>
+        </form>
+    </div>
+</div>
+ <!-- Footer Section -->
+ <div class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/100x50?text=Logo" alt="Logo">
+                <p>Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures.</p>
+            </div>
+            <div class="col-md-4 quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Tour Guide</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 contact-info">
+                <h5>Get In Touch</h5>
+                <p><img src="https://via.placeholder.com/20x20?text=Phone" alt="Phone"> +01 234 567 890</p>
+                <p><img src="https://via.placeholder.com/20x20?text=Phone" alt="Phone"> +09 876 543 210</p>
+                <p><img src="https://via.placeholder.com/20x20?text=Email" alt="Email"> mailinfo00@tourm.com</p>
+                
+                <p><img src="https://via.placeholder.com/20x20?text=Address" alt="Address"> 789 Inner Lane, Holy Park, California, USA</p>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
